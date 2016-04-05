@@ -1,14 +1,13 @@
 import spock.lang.Specification
 
 class WordWrapperImplTest extends Specification{
-    def "Test wordWrap"() {
+    def "Insert meaningful test name here"() {
         given:
-            WordWrapper wordWrapper = new WordWrapperImpl()
+            //set up a thing
         when:
-            List<String> lines = wordWrapper.wrapWords("More than 5", 5)
+            //we do a thing
         then:
-            lines.contains("More ")
-            lines.contains("than ")
-            lines.contains("5")
+            true
+            //the thing that we thought would happen, happened
     }
 }
