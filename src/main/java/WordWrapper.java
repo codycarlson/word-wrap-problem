@@ -1,5 +1,9 @@
 import java.util.List;
 
-public interface WordWrapper {
-    List<String> wrapWords(String string, int maximumCharactersPerLine);
+public class WordWrapper {
+
+    public List<String> wrapWords(String string, int maximumCharactersPerLine) {
+
+        return null;
+    }
 }
