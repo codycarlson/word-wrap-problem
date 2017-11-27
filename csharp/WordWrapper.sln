@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordWrapper", "src\WordWrapper.csproj", "{A1D086F7-1C77-4490-9489-C1EBE1A00254}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordWrapper.Tests", "tests\WordWrapper.Tests.csproj", "{B6AA7EEA-1D71-4277-9476-0EA1713CF259}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7488AB17-360C-4511-97AA-34E67C85E894}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{0C86A4EB-1BD5-4921-8BCF-72D6C2145184}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A1D086F7-1C77-4490-9489-C1EBE1A00254}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1D086F7-1C77-4490-9489-C1EBE1A00254}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1D086F7-1C77-4490-9489-C1EBE1A00254}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1D086F7-1C77-4490-9489-C1EBE1A00254}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6AA7EEA-1D71-4277-9476-0EA1713CF259}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6AA7EEA-1D71-4277-9476-0EA1713CF259}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6AA7EEA-1D71-4277-9476-0EA1713CF259}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6AA7EEA-1D71-4277-9476-0EA1713CF259}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A1D086F7-1C77-4490-9489-C1EBE1A00254} = {7488AB17-360C-4511-97AA-34E67C85E894}
+		{B6AA7EEA-1D71-4277-9476-0EA1713CF259} = {0C86A4EB-1BD5-4921-8BCF-72D6C2145184}
+	EndGlobalSection
+EndGlobal
